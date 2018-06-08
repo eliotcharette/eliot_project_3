@@ -4,7 +4,7 @@ $(".result").text(total)
 }
 
 
-
+dfß
 
 
 $(function() {
