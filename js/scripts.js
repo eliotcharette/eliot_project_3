@@ -3,13 +3,32 @@ var beepboop = function (input) {
   if (input < 0){
     return "Please enter a positive number.";
   }
-
   var number1 = [];
+  var number2 = [];
+
 
   for (var i = 0; i <= input; i++){
     number1.push(i);
-  }
-  if (input % 3 = 0)
+  };
+ for (var i = 0; i < number1.length; i++){
+   if(number1[i] % 3 !== 0){
+     number2.push(i);
+   }
+ }
+ for (var i = 0; i < number2.length; i++){
+   if(number2[i] )
+ }
+
+
+  /*if number1 % 3 = 0 {
+    number1.remove();
+}
+
+for (var i = 0; i <= input; i++){
+  number1.push(i);
+};
+
+*/
 
   /*if (input = 3){
     number1.push('Beep!')
@@ -23,7 +42,7 @@ var beepboop = function (input) {
     }
   }*/
 
-var total = number1;
+var total = number2;
 
 
 
